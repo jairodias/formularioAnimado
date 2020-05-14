@@ -114,7 +114,14 @@ form .btn-login {
 
 /* QUANDO CLICAR NO BOTÃO, SUMIR COM O FORM */
 .form-hide {
-  animation: down 500ms forwards;
+  animation: down 1.2s forwards;
+  /*animation-timing-function: steps(5); /* ideia de passos*/
+  animation-timing-function: cubic-bezier(
+    0.075,
+    0.82,
+    0.165,
+    1
+  ); /* => EXEMPLO DE SAÍDA DO FORMULARIO
   /* ANIMATION FILL MODE => FORWARDS - PERMANECER NA POSIÇÃO FINAL DA ANIMAÇÃO */
 }
 
@@ -123,6 +130,27 @@ form .btn-login {
     transform: translateY(0);
   }
   to {
-    transform: translateY(100vh);
+    transform: translateY(50vh);
+  }
+}
+
+form.validate-error {
+  animation: nono 200ms linear, fade paused;
+  animation-iteration-count: 2;
+}
+
+/* FORM NO- NO => CAMPOS VAZIOS O FORM REAGE */
+@keyframes nono {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-10%);
+  }
+
+  75% {
+    transform: translateX(10%);
   }
 }
