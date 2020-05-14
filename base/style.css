@@ -163,4 +163,14 @@ form.validate-error {
   display: block;
   position: absolute;
   bottom: -40px;
+  animation: up 2s infinite;
+}
+
+@keyframes up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-1200px) rotate(960deg);
+  }
 }
