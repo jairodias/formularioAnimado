@@ -1,0 +1,112 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-color: #e1ddee;
+  font-family: Roboto, Arial, sans-serif;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+}
+
+.menu{
+  background: rgb(0, 51, 102);
+  height: 100vh;
+  width: 20%;
+  border: none;
+  text-align: center;
+  left: -300px;
+  transition: all 1s ease;
+  position: absolute;
+}
+.btn-menu{
+  border: none;
+  height: 40px;
+  width: 40px;
+  background: rgb(0, 51, 102);
+  position: relative;
+  transition: all 1s ease;
+  outline: none;
+  border-radius: 15px;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.img-logo{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 5%
+}
+h1{
+  font-size: 25px;
+  color: #e1ddee;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+ul{
+  padding-left: 0!important;
+  margin-top: 10% !important;
+}
+
+ul li {
+  text-decoration: none;
+  outline: none;
+  list-style-type: none;
+  padding: 10%;
+}
+.border{
+  border: 1px solid #e1ddee;
+  margin: 4%
+}
+.link-pagina{
+  outline: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e1ddee;
+}
+
+.pimvi{
+  color: #e1ddee;
+  font-size: 20px;
+  margin-top: 60%;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: .01cm;
+}
+.col-vendas{
+  width: 80vw;
+  transition: all 1s ease;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.info-vendas{
+  width: 100%;
+  height: 80vh;
+  background: #ffffff;
+  transition: all 400ms ease-out;
+  border: none;
+  border-radius: 3px;
+  
+}
+
+.modulo{
+  text-align: center;
+  color: #FF3300;
+  padding: 12px;
+  font-size: 30px;
+  font-family: Lobster, cursive;
+}

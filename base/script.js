@@ -61,3 +61,10 @@ for (let i = 0; i < 11; i++) {
 
   ulSquares.appendChild(li);
 }
+
+
+
+// $(document).ready( function () {
+//   $('#table').DataTable();
+// } );
+
