@@ -4,14 +4,18 @@ body, html{
   box-sizing: border-box;
 }
 
+
 html,
 body {
   height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
-  background-color: #e1ddee;
+  /* background-color: #e1ddee; */
   font-family: Roboto, Arial, sans-serif;
+  color: #e1ddee;
+  background-color: rgba(255,10,20,0.3);
 }
 section {
   display: flex;
@@ -19,7 +23,31 @@ section {
   justify-content: start;
 
 }
-
+.nav{
+  height: 50px;
+  width: 100%;
+  background: rgb(0, 51, 102);
+}
+small{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 1.3%;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.fa-sign-out-alt{
+  color: #ffffff;
+  font-size: 28px;
+  margin-top: 1%;
+  margin-left: 85%;
+}
+.img-func{
+  margin-left: 1%;
+  margin-top: 0.8%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
 .menu{
   background: rgb(0, 51, 102);
   height: 100vh;
@@ -34,7 +62,7 @@ section {
   border: none;
   height: 40px;
   width: 40px;
-  background: rgb(0, 51, 102);
+  background: rgba(0, 51, 102, 0.0);
   position: relative;
   transition: all 1s ease;
   outline: none;
@@ -87,26 +115,37 @@ ul li {
   letter-spacing: .01cm;
 }
 .col-vendas{
-  width: 80vw;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: all 1s ease;
-  margin-left: 10%;
-  margin-top: 2%;
+  margin-top: 3%;
 }
-
-.info-vendas{
-  width: 100%;
-  height: 80vh;
-  background: #ffffff;
-  transition: all 400ms ease-out;
-  border: none;
-  border-radius: 3px;
-  
+table{
+  width: 80% !important;
+  transition: all 1s ease
+}
+table th, table tr{
+  text-align: center;
 }
 
 .modulo{
   text-align: center;
   color: #FF3300;
-  padding: 12px;
   font-size: 30px;
   font-family: Lobster, cursive;
+  display: block !important;
+  transition: all 1s ease;
 }
+.fa-trash{
+  color: rgba(255,0,0,0.9)
+}
+.fa-search{
+  color: rgb(0,0,255);
+  padding-left: 20%;
+}
+.icons{
+  font-size: 20px;
+}
+

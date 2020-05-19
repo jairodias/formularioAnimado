@@ -13,9 +13,13 @@
   
 </head>
 <body>
+  <div class="nav nav-bar">
+      <i class="fas fa-sign-out-alt"></i>
+      <img class="img-func" src="./src/img/barbeiro.png">
+      <small>Supervisor</small>
+  </div>
     <section>
       <div class="container-fluid">
-        <div class="row">
           <div class="menu">
             <img class="img-logo" src="src/img/23981-catalogar-todos-os-jogos-eletronicos-diapo-1.jpg">
             <h1>Game Store</h1>
@@ -27,6 +31,10 @@
               <li>
                   <a href="#" class="link-pagina">Consultar Estoque</a>
               </li>
+
+              <li>
+                  <a href="#" class="link-pagina">Configurar Perfil</a>
+              </li>
             </ul>
 
             <h5 class="pimvi"> PIM VI &copy; 2020</h5>
@@ -34,31 +42,34 @@
           <button type="button" class="btn-menu">
               <i class="fas fa-bars fa-2x"></i>
           </button>
+          <div class="row modulo">Módulo de vendas</div>
           <div class="col col-vendas">
-            <div class="info-vendas">
-                <h1 class="modulo">Módulo Vendas</h1>
-
-                <table id="table" class="table">
-                    <thead>
-                        <tr>
-                            <th>Column 1</th>
-                            <th>Column 2</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Row 1 Data 1</td>
-                            <td>Row 1 Data 2</td>
-                        </tr>
-                        <tr>
-                            <td>Row 2 Data 1</td>
-                            <td>Row 2 Data 2</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <table id="table" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Item</th>
+                        <th>Data/Hora</th>
+                        <th>Valor</th>
+                        <th>Vendedor</th>
+                        <th>Operações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>er1568f</td>
+                        <td> Jogo exclusivo</td>
+                        <td> 19/05/2020 18:20</td>
+                        <td> R$ 200,00</td>
+                        <td> 01505 - Vendedor X</td>
+                        <td>
+                            <i class="fa fa-trash icons" aria-hidden="true"></i>
+                            <i class="fa fa-search icons" aria-hidden="true"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
           </div>
-        </div>
       </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
