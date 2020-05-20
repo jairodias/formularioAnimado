@@ -207,3 +207,8 @@ footer{
 .btns > .paginaPrevious{
   background: rgba(0,0,255, 0.8);
 }
+
+.select2{
+  width: 100% !important;
+
+}

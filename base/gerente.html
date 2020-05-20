@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
   <link rel="stylesheet" href="area.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
   <link rel="stylesheet" href="bootstrap.min.css">
@@ -175,10 +176,27 @@
               </button>
             </div>
             <div class="modal-body">
-              <p>Modal body text goes here.</p>
+              <div class="form-group">
+                  <label>Produtos</label>
+                  <select class="select-multiple" name="states[]" multiple="multiple">
+                      <option value="AL" selected>Alabama</option>
+                        ...
+                      <option value="WY" selected>Wyoming</option>
+                    </select>
+              </div>
+
+              
+              <label>Valor</label>
+              <input type="text" value="R$ 500,00">
+
+              <label>Categoria</label>
+              <input type="text" value="Jogo Raro">
+
+              <label>Vendedor</label>
+              <input type="text" value="01505 - Vendedor X">
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn">Salvar Alterações</button>
+              <button type="button" class="btn save">Salvar Alterações</button>
             </div>
           </div>
         </div>
@@ -188,6 +206,7 @@
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
   <script src="gerente.js"></script>
 </body>
 </html>

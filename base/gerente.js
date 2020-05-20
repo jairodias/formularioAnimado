@@ -51,4 +51,8 @@ $(document).ready( function () {
   $(".close").on('click', () => {
     $("#exampleModal").hide();
   })
+
+  $('.select-multiple').select2();
+
+
 });
