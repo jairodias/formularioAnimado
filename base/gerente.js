@@ -19,3 +19,11 @@ buttonTeste.addEventListener("click", event => {
   }
   
 });
+
+$(document).ready( function () {
+  $('#table').DataTable({
+    bFilter: false,
+    bInfo: false,
+    bPaginate: false
+  });
+} );
