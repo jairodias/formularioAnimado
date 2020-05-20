@@ -28,4 +28,19 @@ $(document).ready( function () {
     bInfo: false,
     bPaginate: false
   });
-} );
+
+  $('.data').daterangepicker({
+    autoUpdateInput: false,
+    locale: {
+        cancelLabel: 'Clear'
+    }
+  });
+
+  $('.data').on('apply.daterangepicker', function(ev, picker) {
+    $(this).val(picker.startDate.format('DD/MM/YYYY') + ' - ' + picker.endDate.format('DD/MM/YYYY'));
+  });
+
+  $('.data').on('cancel.daterangepicker', function(ev, picker) {
+    $(this).val('');
+});
+});
