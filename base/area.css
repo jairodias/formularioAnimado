@@ -8,7 +8,7 @@ body, html{
 html,
 body {
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -178,5 +178,16 @@ footer{
 .btns{
   transition: all 1s ease;
   margin-top: 2%;
-  margin-left: 70%;
+  margin-left: 65%;
+}
+
+.btns > .btn{
+  background: #FF3300;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btns > .paginaPrevious{
+  background: rgba(0,0,255, 0.8);
 }
