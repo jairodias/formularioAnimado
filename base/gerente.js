@@ -42,5 +42,13 @@ $(document).ready( function () {
 
   $('.data').on('cancel.daterangepicker', function(ev, picker) {
     $(this).val('');
-});
+  });
+
+  $(".fa-edit").on("click", () => {
+    $("#exampleModal").show();
+  });
+
+  $(".close").on('click', () => {
+    $("#exampleModal").hide();
+  })
 });
