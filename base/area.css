@@ -212,3 +212,18 @@ footer{
   width: 100% !important;
 
 }
+
+.input-edit{
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  text-align: center;
+}
+
+.save{
+  text-align: center;
+  width: 100%;
+  background: #FF3300 !important;
+  color: #ffffff !important;
+}
