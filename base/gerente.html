@@ -209,6 +209,101 @@
         </div>
       </div>
 
+    <div class="modal" id="searchVenda" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Venda er1568f - Cliente X</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                  <label>Produtos</label>
+                  <select class="select-multiple" name="states[]" multiple="multiple" disabled>
+                      <option value="Mario" selected>Mario Kart</option>
+                      <option value="LOL" selected>League Of Legends</option>
+                      <option value="Assassins Creeds" selected>Assassins Creeds</option>
+                      <option value="GunBound" selected>GunBound</option>
+                      <option value="Warface" selected>Warface</option>
+                    </select>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Valor</label>
+                        <input type="text" class="input-edit" value="R$ 500,00">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <label>Vendedor</label>
+                        <input type="text" class="input-edit" value="01505 - Vendedor X">
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn save">Salvar Alterações</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="vendas" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Nova Venda</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Cliente</label>
+                    <select class="select-multiple" name="states[]" multiple="multiple">
+                        <option value="Jairo">Jairo P D - 621.144.050-28</option>
+                        <option value="Karol">Karol D G - 210.998.350-70</option>
+                        <option value="Edson">Edson T F - 860.707.290-05</option>
+                        <option value="Robson">Robson R G - 457.457.890-42</option>
+                        <option value="GRupo">Grupo PIM VI - 918.385.760-53</option>
+                      </select>
+                </div>
+
+              <div class="form-group">
+                  <label>Produtos</label>
+                  <select class="select-multiple" name="states">
+                      <option value="Mario">Mario Kart</option>
+                      <option value="LOL" selected>League Of Legends</option>
+                      <option value="Assassins Creeds">Assassins Creeds</option>
+                      <option value="GunBound">GunBound</option>
+                      <option value="Warface">Warface</option>
+                    </select>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Valor</label>
+                        <input type="text" class="input-edit" value="R$ 25,00" readonly>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <label>Vendedor</label>
+                        <input type="text" class="input-edit" value="01505 - Vendedor X" readonly>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn save">Confirmar Venda</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>

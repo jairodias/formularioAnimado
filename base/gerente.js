@@ -48,11 +48,27 @@ $(document).ready( function () {
     $("#exampleModal").show();
   });
 
+  $(".fa-search").on("click", () => {
+    $("#searchVenda").show();
+    document.querySelector('.select2-selection__choice__remove').setAttribute("style", "display: none");
+
+  });
+
   $(".close").on('click', () => {
     $("#exampleModal").hide();
   })
 
+  $(".close").on('click', () => {
+    $("#vendas").hide();
+  })
+
+  $(".close").on('click', () => {
+    $("#searchVenda").hide();
+  })
+
   $('.select-multiple').select2();
 
-
+  $('.btn-venda').on('click', function(){
+    $("#vendas").show();
+  });
 });
