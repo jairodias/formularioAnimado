@@ -46,11 +46,13 @@ $(document).ready( function () {
 
   $(".fa-edit").on("click", () => {
     $("#exampleModal").show();
+    document.querySelector('.select2-selection__choice__remove').setAttribute("style", "display: inherit");
   });
 
   $(".fa-search").on("click", () => {
-    $("#searchVenda").show();
     document.querySelector('.select2-selection__choice__remove').setAttribute("style", "display: none");
+    $("#searchVenda").show();
+    
 
   });
 
