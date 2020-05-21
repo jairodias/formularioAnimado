@@ -129,7 +129,7 @@ table th, table tr{
 
 .search{
   transition: all 1s ease;
-  margin-left: 29%;
+  margin-left: 10%;
   margin-bottom: 2%;
 }
 
@@ -226,4 +226,13 @@ footer{
   width: 100%;
   background: #FF3300 !important;
   color: #ffffff !important;
+}
+
+.btn-venda{
+  background: #FF3300;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  width: 25%;
+  margin-left: 3%;
 }
