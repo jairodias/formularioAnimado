@@ -73,4 +73,15 @@ $(document).ready( function () {
   $('.btn-venda').on('click', function(){
     $("#vendas").show();
   });
+
+  $('.select2-selection__choice__remove').on("click", function(){
+    var senha = prompt('Digite a senha do supervisor');
+
+    if(senha == 123456){
+      alert("Item excluido com sucesso");
+    }else{
+      alert("Senha incorreta");
+      return false;
+    }
+  })
 });
