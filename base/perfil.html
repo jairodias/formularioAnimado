@@ -46,8 +46,24 @@
           <button type="button" class="btn-menu">
               <i class="fas fa-bars fa-2x"></i>
           </button>
-          <div class="main">
-            
+          <div class="col col-vendas">
+            <div class="main">
+              <form id="formulario-cadastro">
+                  <h6>Formulário de Cadastro</h6>
+                  <input type="text"name="nome" class="input-perfil" placeholder="Digite o seu nome aqui" required>
+                  <select name="cargo" name="cargo" class="input-perfil" required>
+                    <option value="">Selecione o cargo</option>
+                    <option value="Gerente">Gerente</option>
+                    <option value="Operador de Caixa">Operador de Caixa</option>
+                    <option value="Vendedor">Vendedor</option>
+                    <option value="Estoquista">Estoquista</option>
+                  </select>
+                  <input type="text" name="cpf" class="input-perfil" placeholder="Digite o cpf">
+                  <textarea type="text" name="descricao" class="textarea-perfil" placeholder="Digite o seu nome aqui">
+                  </textarea>
+                  <button type="button" class="btn-formulario"> Salvar Informações</button>
+                </form>
+                </div>              
           </div>
           
       </div>
@@ -58,6 +74,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
-  <script src="gerente.js"></script>
+    
+  <script src="perfil.js"></script>
 </body>
 </html>

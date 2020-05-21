@@ -71,6 +71,7 @@ small{
   border-radius: 15px;
   margin-left: 1%;
   margin-top: 1%;
+  color: black;
 }
 
 .img-logo{
@@ -95,6 +96,10 @@ ul li {
   outline: none;
   list-style-type: none;
   padding: 10%;
+}
+
+ul > li > a:link{
+  text-decoration: none;
 }
 
 .border{
@@ -236,4 +241,58 @@ footer{
   width: 25%;
   margin-left: 3%;
   outline: none;
+}
+
+.main{
+  margin-left: 25%;
+  text-align: center;
+  width: 50%;
+  background: rgba(170, 170, 170, 0.2);
+  border-radius: 20px;
+  height: 75vh;
+}
+
+.input-perfil{
+  width: 80%;
+  /* border-radius: 20px; */
+  border:  none;
+  height: 50px;
+  padding: 12px 20px;
+  margin-top: 2%;
+  outline: none;
+}
+
+.textarea-perfil{
+  width: 80%;
+  border: none;
+  margin-top: 2%;
+  outline: none;
+  resize: none;
+  height: 150px;
+  padding: 0 !important;
+}
+
+h6{
+  color: #FF3300;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2% !important;
+  font-size: 30px !important;
+}
+
+.btn-formulario{
+  border: none;
+  margin-top: 2%;
+  color: #ffffff;
+  height: 40px;
+  width: 80%;
+  background: #aaaaaa;
+  outline: none;
+  transition: all 1s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.btn-formulario:hover{
+  background: rgb(0, 51, 102);
+  color: #ffffff;
+  transition: all 2s ease;
 }
